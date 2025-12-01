@@ -267,7 +267,7 @@
         const themeIcon = themeToggleBtn.querySelector('i');
         const htmlElement = document.documentElement;
 
-        const currentTheme = localStorage.getItem('theme') || 'light';
+        const currentTheme = localStorage.getItem('theme') || 'dark';
         htmlElement.setAttribute('data-theme', currentTheme);
         updateIcon(currentTheme);
 
